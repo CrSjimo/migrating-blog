@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+        <title>Migrating</title>
+        <style>
+            @media screen and (max-width: 720px) {
+                img {
+                    width: 100%
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <img src="migrate_cn.svg" alt="myxrcrs.de -> myxrcrs.cn">
+        <h1>正在迁移 Migrating Dya-Duruqunte 当转ㄖㄨ居ㄊㄝ</h1>
+        <p><i>myxrcrs.de</i>正在迁移到<i>myxrcrs.cn</i>。请访问：</p>
+        <p><i>myxrcrs.de</i> is migrating to <i>myxrcrs.cn</i>. Please visit:</p>
+        <p><i>myxrcrs.de</i> dya duruqunte do <i>myxrcrs.cn</i>. Zolucibet xityixite:</p>
+        <p><i>myxrcrs.de</i>持<i>myxrcrs.cn</i>·ㄧㄒㄛ当转ㄖㄨ居ㄊㄝ。兹兮动ㄨㄒㄧ见ㄊ请ㄩㄒㄧㄊㄝ:</p>
+        <a id="target"></a>
+        <script>
+            let anchor = document.getElementById("target");
+            let _ = true;
+            let newHref = location.href.replace('.de','.cn');
+            anchor.href = newHref;
+            anchor.textContent = newHref;
+        </script>
+    </body>
+</html>
